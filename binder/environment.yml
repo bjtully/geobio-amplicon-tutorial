@@ -5,7 +5,6 @@ channels:
   - defaults
 dependencies:
   - _r-mutex=1.0.1
-  - appnope=0.1.0
   - arb-bio-tools=6.0.6
   - asn1crypto=1.2.0
   - atomicwrites=1.3.0
@@ -34,14 +33,13 @@ dependencies:
   - blast=2.6.0
   - bleach=3.1.0
   - bokeh=1.3.4
-  - boost=1.67.0
+  - boost=1.60*
   - boost-cpp=1.67.0
   - bwidget=1.9.13
   - bzip2=1.0.8
   - ca-certificates=2019.9.11
   - cachecontrol=0.12.5
   - cairo=1.14.12
-  - cctools=921
   - certifi=2019.6.16
   - cffi=1.13.1
   - chardet=3.0.4
@@ -61,7 +59,7 @@ dependencies:
   - defusedxml=0.6.0
   - dendropy=4.2.0
   - dnaio=0.4
-  - emperor=1.0.0b20
+  - emperor=1.0.0b20*
   - entrypoints=0.3
   - fastcluster=1.1.25
   - fasttree=2.1.10
@@ -69,7 +67,6 @@ dependencies:
   - freetype=2.10.0
   - future=0.18.2
   - gettext=0.19.8.1
-  - gfortran_osx-64=4.8.5
   - glib=2.56.2
   - gneiss=0.4.6
   - graphite2=1.3.13
@@ -96,7 +93,6 @@ dependencies:
   - jupyter_core=4.5.0
   - kiwisolver=1.1.0
   - krb5=1.16.3
-  - ld64=409.12
   - libarbdb=6.0.6
   - libblas=3.8.0
   - libcblas=3.8.0
@@ -105,7 +101,6 @@ dependencies:
   - libedit=3.1.20170329
   - libffi=3.2.1
   - libgcc=4.8.5
-  - libgfortran=3.0.1
   - libiconv=1.15
   - liblapack=3.8.0
   - liblapacke=3.8.0
@@ -133,7 +128,7 @@ dependencies:
   - ncurses=6.1
   - networkx=2.4
   - nose=1.3.7
-  - notebook=6.0.1
+  - notebook=6*
   - numpy=1.17.3
   - olefile=0.46
   - openjdk=11.0.1
