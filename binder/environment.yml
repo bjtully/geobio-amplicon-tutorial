@@ -1,8 +1,9 @@
 channels:
-- anaconda
 - qiime2/label/r2019.10
 - conda-forge
+- conda-forge/label/cf201901
 - bioconda
+- anaconda
 - defaults
 dependencies:
 - _r-mutex=1.0.1
