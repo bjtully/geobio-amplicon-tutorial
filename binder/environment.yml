@@ -4,7 +4,7 @@ channels:
 - bioconda
 - defaults
 dependencies:
-- _libgcc_mutex=0.1
+- _libgcc_mutex
 - _r-mutex=1.0.1
 - alsa-lib=1.1.5
 - arb-bio-tools=6.0.6
@@ -102,8 +102,8 @@ dependencies:
 - joblib=0.14.0
 - jpeg=9c
 - jsonschema=3.1.1
-- jupyter_client=5.3.3
-- jupyter_core=4.5.0
+- jupyter_client
+- jupyter_core
 - kiwisolver=1.1.0
 - krb5=1.16.3
 - lcms2=2.9
@@ -113,9 +113,9 @@ dependencies:
 - libcurl=7.65.3
 - libedit=3.1.20170329
 - libffi=3.2.1
-- libgcc=7.2.0
-- libgcc-ng=9.1.0
-- libgfortran-ng=7.3.0
+- libgcc
+- libgcc-ng
+- libgfortran-ng
 - libiconv=1.15
 - liblapack=3.8.0
 - liblapacke=3.8.0
