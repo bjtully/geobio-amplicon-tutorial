@@ -1,0 +1,18 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - cutadapt=2.3
+  - r-base=3.6
+  - r-tidyverse
+  - r-vegan
+  - r-dendextend
+  - r-viridis
+  - r-reshape
+  - bioconductor-phyloseq
+  - bioconductor-deseq2
+  - bioconductor-decontam
+  - bioconductor-dada2
+  - bioconductor-decipher
+
