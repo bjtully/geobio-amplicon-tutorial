@@ -3,7 +3,10 @@ install.packages("dendextend")
 install.packages("tidyr")
 install.packages("viridis")
 install.packages("reshape")
-
+install.packages("tidyverse")
+install.packages("readr")
+install.packages("seqinr")
+install.packages("ape")
 
 source("https://bioconductor.org/biocLite.R")
 biocLite(suppressUpdates = FALSE)
