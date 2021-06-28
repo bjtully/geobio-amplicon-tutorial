@@ -1,4 +1,5 @@
 channels:
+- anaconda
 - qiime2/label/r2019.10
 - conda-forge
 - bioconda
