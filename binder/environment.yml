@@ -119,7 +119,6 @@ dependencies:
 - libiconv=1.15
 - liblapack=3.8.0
 - liblapacke=3.8.0
-- libopenblas
 - libpng=1.6.37
 - libsodium=1.0.17
 - libssh2=1.8.2
@@ -303,7 +302,7 @@ dependencies:
 - testpath=0.4.2
 - tk=8.6.9
 - tktable=2.10
-- tornado=6.0.3
+- tornado
 - traitlets=4.3.3
 - tzlocal=2.0.0
 - unifrac=0.10.0
