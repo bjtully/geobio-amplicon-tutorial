@@ -5,7 +5,6 @@ channels:
 - bioconda
 - defaults
 dependencies:
-- _libgcc_mutex
 - _r-mutex=1.0.1
 - alsa-lib=1.1.5
 - arb-bio-tools=6.0.6
@@ -113,9 +112,6 @@ dependencies:
 - libcurl=7.65.3
 - libedit=3.1.20170329
 - libffi=3.2.1
-- libgcc
-- libgcc-ng
-- libgfortran-ng
 - libiconv=1.15
 - liblapack=3.8.0
 - liblapacke=3.8.0
