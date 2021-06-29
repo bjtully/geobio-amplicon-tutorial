@@ -10,6 +10,7 @@ dependencies:
   - r-dendextend
   - r-viridis
   - r-reshape
+  - r-rcpp
   - bioconductor-phyloseq
   - bioconductor-deseq2
   - bioconductor-decontam
