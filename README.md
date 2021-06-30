@@ -70,13 +70,6 @@ We can use Unix to give us a quick summary of the results:
 ```
 paste samples <(grep "passing" cutadapt_primer_trimming_stats.txt | cut -f3 -d "(" | tr -d ")") <(grep "filtered" cutadapt_primer_trimming_stats.txt | cut -f3 -d "(" | tr -d ")")
 ```
-Set the directory
-
-```{r setup, include=FALSE, cache = FALSE}
-require("knitr")
-## setting working directory
-opts_knit$set(root.dir = "~/dada2_amplicon_ex_workflow")
-```
 
 ## Part 1 - Implementing DADA2 in R
 
@@ -86,7 +79,7 @@ In the first block of code, we will call the package DADA2 and create a number o
 library(dada2)
 packageVersion("dada2") # 1.11.5 when this was initially put together, though now 1.15.2 in the binder
 
-#setwd("~/dada2_amplicon_ex_workflow")
+setwd("~/dada2_amplicon_ex_workflow")
 
 list.files() # make sure what we think is here is actually here
 
