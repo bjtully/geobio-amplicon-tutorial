@@ -1,13 +1,17 @@
 ---
-title: Internation Geobiology Course 2019 - Example Amplion Workflow Analysis
+title: International Geobiology Course 2021 - Example Amplicon Workflow Analysis
 author: "Benjamin Tully - modified from Happy Belly example by Dr. Michael Lee"
 ---
 
-This tutorial will have X parts. These parts include:
+This tutorial will have 3 parts. These parts include:
 
-* Example
+* Very short Pre-part 1
+* Part 1 - Running DADA2 on amplicon data in R
+* Part 2 - Performing data analysis in R
 
 The original data are from this [paper](https://www.frontiersin.org/articles/10.3389/fmicb.2015.01470/full) and are also the dataset used in the Happy Belly Amplicons Analysis [tutorial](https://astrobiomike.github.io/amplicon/)
+
+Launch our Binder from here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AstrobioMike/binder-dada2-ex-workflow/v4?urlpath=rstudio)
 
 ## Pre-Part 1 -- Download and set-up the data
 
